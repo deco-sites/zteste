@@ -19,20 +19,22 @@ import * as $$4 from "./islands/SearchControls.tsx";
 import * as $$$0 from "./sections/Carousel.tsx";
 import * as $$$1 from "./sections/CookieConsent.tsx";
 import * as $$$2 from "./sections/DesignSystem.story.tsx";
-import * as $$$3 from "./sections/Features.tsx";
-import * as $$$4 from "./sections/Footer.tsx";
-import * as $$$5 from "./sections/Header.tsx";
-import * as $$$6 from "./sections/Highlights.tsx";
-import * as $$$7 from "./sections/ProductDetails.tsx";
-import * as $$$8 from "./sections/ProductGallery.tsx";
-import * as $$$9 from "./sections/ProductShelf.tsx";
-import * as $$$10 from "./sections/SearchControls.tsx";
-import * as $$$11 from "deco-sites/std/sections/SEO.tsx";
-import * as $$$12 from "deco-sites/std/sections/SEOPDP.tsx";
-import * as $$$13 from "deco-sites/std/sections/SEOPLP.tsx";
-import * as $$$14 from "deco-sites/std/sections/configOCC.global.tsx";
-import * as $$$15 from "deco-sites/std/sections/configShopify.global.tsx";
-import * as $$$16 from "deco-sites/std/sections/configVTEX.global.tsx";
+import * as $$$3 from "./sections/ExemploTeste.tsx";
+import * as $$$4 from "./sections/Features.tsx";
+import * as $$$5 from "./sections/Footer.tsx";
+import * as $$$6 from "./sections/Header.tsx";
+import * as $$$7 from "./sections/Highlights.tsx";
+import * as $$$8 from "./sections/ProductDetails.tsx";
+import * as $$$9 from "./sections/ProductGallery.tsx";
+import * as $$$10 from "./sections/ProductShelf.tsx";
+import * as $$$11 from "./sections/RichText.tsx";
+import * as $$$12 from "./sections/SearchControls.tsx";
+import * as $$$13 from "deco-sites/std/sections/SEO.tsx";
+import * as $$$14 from "deco-sites/std/sections/SEOPDP.tsx";
+import * as $$$15 from "deco-sites/std/sections/SEOPLP.tsx";
+import * as $$$16 from "deco-sites/std/sections/configOCC.global.tsx";
+import * as $$$17 from "deco-sites/std/sections/configShopify.global.tsx";
+import * as $$$18 from "deco-sites/std/sections/configVTEX.global.tsx";
 import * as $$$$0 from "$live/functions/EffectSelectPage.ts";
 import * as $$$$1 from "$live/functions/MatchDate.ts";
 import * as $$$$2 from "$live/functions/MatchEnvironment.ts";
@@ -70,20 +72,22 @@ const manifest: DecoManifest = {
     "./sections/Carousel.tsx": $$$0,
     "./sections/CookieConsent.tsx": $$$1,
     "./sections/DesignSystem.story.tsx": $$$2,
-    "./sections/Features.tsx": $$$3,
-    "./sections/Footer.tsx": $$$4,
-    "./sections/Header.tsx": $$$5,
-    "./sections/Highlights.tsx": $$$6,
-    "./sections/ProductDetails.tsx": $$$7,
-    "./sections/ProductGallery.tsx": $$$8,
-    "./sections/ProductShelf.tsx": $$$9,
-    "./sections/SearchControls.tsx": $$$10,
-    "deco-sites/std/sections/SEO.tsx": $$$11,
-    "deco-sites/std/sections/SEOPDP.tsx": $$$12,
-    "deco-sites/std/sections/SEOPLP.tsx": $$$13,
-    "deco-sites/std/sections/configOCC.global.tsx": $$$14,
-    "deco-sites/std/sections/configShopify.global.tsx": $$$15,
-    "deco-sites/std/sections/configVTEX.global.tsx": $$$16,
+    "./sections/ExemploTeste.tsx": $$$3,
+    "./sections/Features.tsx": $$$4,
+    "./sections/Footer.tsx": $$$5,
+    "./sections/Header.tsx": $$$6,
+    "./sections/Highlights.tsx": $$$7,
+    "./sections/ProductDetails.tsx": $$$8,
+    "./sections/ProductGallery.tsx": $$$9,
+    "./sections/ProductShelf.tsx": $$$10,
+    "./sections/RichText.tsx": $$$11,
+    "./sections/SearchControls.tsx": $$$12,
+    "deco-sites/std/sections/SEO.tsx": $$$13,
+    "deco-sites/std/sections/SEOPDP.tsx": $$$14,
+    "deco-sites/std/sections/SEOPLP.tsx": $$$15,
+    "deco-sites/std/sections/configOCC.global.tsx": $$$16,
+    "deco-sites/std/sections/configShopify.global.tsx": $$$17,
+    "deco-sites/std/sections/configVTEX.global.tsx": $$$18,
   },
   functions: {
     "$live/functions/EffectSelectPage.ts": $$$$0,
@@ -167,6 +171,10 @@ const manifest: DecoManifest = {
       "outputSchema": null,
     },
     "./sections/DesignSystem.story.tsx": {
+      "inputSchema": null,
+      "outputSchema": null,
+    },
+    "./sections/ExemploTeste.tsx": {
       "inputSchema": null,
       "outputSchema": null,
     },
@@ -800,6 +808,25 @@ const manifest: DecoManifest = {
           "title",
           "products",
         ],
+      },
+      "outputSchema": null,
+    },
+    "./sections/RichText.tsx": {
+      "inputSchema": {
+        "title": " Rich Text",
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": [
+              "string",
+              "null",
+            ],
+            "title": "Texto",
+            "description":
+              "Texto em linguagem Markdown a ser mostrado (confira o seguinte guia caso tenha dúvidas de como funciona o Markdown: https://www.markdownguide.org/cheat-sheet/)",
+          },
+        },
+        "required": [],
       },
       "outputSchema": null,
     },

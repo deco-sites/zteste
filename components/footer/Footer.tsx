@@ -211,6 +211,20 @@ function Footer({ sections = defaultSections }: Props) {
               </a>
             </Text>
 
+            <Text
+              class="flex items-center gap-1 hover:bg-hover"
+              variant="body"
+              tone="default-inverse"
+            >
+              Developed by{" "}
+              <a
+                href="https://www.deco.cx"
+                aria-label="powered by https://www.deco.cx"
+              >
+                ZEO
+              </a>
+            </Text>
+
             <ul class="flex items-center justify-center gap-2">
               <li>
                 <a
